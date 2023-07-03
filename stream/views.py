@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import chat
+import secrets
 # Create your views here.
 def index(request):
     if request.method == 'POST':
